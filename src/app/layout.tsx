@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${barlowSans.variable} antialiased`}>
         <main className="bg-[url(/girls-with-mask.png)] bg-cover bg-right md:bg-position-[right_-25vw_bottom_0] lg:bg-right  bg-no-repeat">
-          <div className="w-full flex items-center md:w-[40vw] p-12 xl:p-18 2xl:p-24 space-y-8 h-screen bg-background">
+          <div className="w-full flex items-center md:w-[40vw] space-y-8 h-screen bg-background overflow-hidden">
             {children}
           </div>
         </main>
