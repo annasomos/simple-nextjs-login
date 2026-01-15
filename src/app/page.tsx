@@ -31,6 +31,7 @@ export default function Home() {
               value={userName}
               setValue={setUserName}
               isRequired={true}
+              placeholderText="Enter your username"
               type="text"
             />
 
@@ -40,6 +41,7 @@ export default function Home() {
               value={userPassword}
               setValue={setUserPassword}
               isRequired={true}
+              placeholderText="Enter your password"
               type="password"
             />
           </div>
